@@ -27,6 +27,7 @@ Item items[MAX_ITEMS];
 int item_count = 0;
 int global_log_id = 1;
 
+
 void trim_newline(char *s) {
     int len = (int)strlen(s);
     while (len > 0 && (s[len - 1] == '\n' || s[len - 1] == '\r')) {
